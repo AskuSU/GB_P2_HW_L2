@@ -2,7 +2,7 @@
 #include<windows.h>
 #include"MyLib.h"
 #include"Task1.h"
-//#include"Task2.h"
+#include"Task2.h"
 //#include"Task3.h"
 
 using namespace std;
@@ -52,12 +52,15 @@ void Task1()
 
 void Task2()
 {
-	cout << "Работа с классом RGBA:" << endl << endl;
+	cout << "Работа с классом Фрукты:" << endl << endl;
 	
-	cout << "Создали экземпляр класса с не параметризованным конструктором, вызвали метод print()" << endl;
-	
-	cout << "Теперь внесём значения каналов и создадим новый экземпляр с этими параметрами:" << endl;
-	
+	Apple a("red");
+	Banana b;
+	GrannySmith c;
+
+	std::cout << "My " << a.getName() << " is " << a.getColor() << ".\n";
+	std::cout << "My " << b.getName() << " is " << b.getColor() << ".\n";
+	std::cout << "My " << c.getName() << " is " << c.getColor() << ".\n";
 }
 
 void Task3()
