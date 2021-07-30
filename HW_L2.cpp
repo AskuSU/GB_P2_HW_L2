@@ -3,7 +3,7 @@
 #include"MyLib.h"
 #include"Task1.h"
 #include"Task2.h"
-//#include"Task3.h"
+#include"Task3.h"
 
 using namespace std;
 using namespace myLib;
@@ -65,7 +65,9 @@ void Task2()
 
 void Task3()
 {
-	
+	cout << "Работа с классом Колоды карт:" << endl << endl;
+
+	Deck deck;
 }
 
 
